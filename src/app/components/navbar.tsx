@@ -3,8 +3,6 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
 
-    // javascript
-
     return (
         <div className="navbar">
             <NavLink to="/" className='logo'>Fatin Rakennusfirma</NavLink>
