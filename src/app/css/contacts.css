@@ -1,0 +1,79 @@
+.content {
+    background-color: rgb(200, 217, 231);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 256px;
+}
+
+.contact-side-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.contact-title {
+    font-size: 48px;
+    margin-top: 32px;
+    align-self: center;
+}
+
+.company-name {
+    font-size: 36px;
+    margin-top: 4px;
+}
+
+.contact-text {
+    font-size: 20px;
+    max-width: 512px;
+}
+
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+}
+
+.text-field {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(112, 114, 114);
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.email-field {
+    max-width: 456px;
+}
+
+.email-content-field {
+
+}
+
+.contact-send-btn {
+    width: 92px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.icon-height-fix {
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+
+.space-under {
+    padding-bottom: 6px;
+}

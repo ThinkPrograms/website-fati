@@ -1,0 +1,25 @@
+.container {
+    padding-inline: 256px;
+    padding-block: 32px;
+}
+
+.topPortion {
+    display: flex;
+    flex-direction: row;
+}
+
+.topImage {
+    height: 600px;
+    width: 600px;
+    margin-right: 16px;
+}
+
+.topText {
+    margin-bottom: 16px;
+}
+
+.middlePortion {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}

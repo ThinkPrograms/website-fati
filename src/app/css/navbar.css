@@ -1,0 +1,27 @@
+/* Hello :) */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #32ADE6;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    padding-inline: 256px;
+}
+
+.logo {
+    position: relative;
+    font-size: 24px;
+    color: rgb(235, 235, 235);
+    bottom: 6px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(235, 235, 235);
+}
+
+.menu-item ~ .menu-item {
+    margin-left: 16px;
+}

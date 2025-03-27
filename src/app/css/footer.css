@@ -1,0 +1,15 @@
+.Footer {
+    margin-top: auto;
+    height: 64px;
+    width: 100%;
+    background: #2C2C2C;
+}
+
+.footer-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #d6d6d6;
+    font-size: 12px;
+    padding-top: 24px;
+}
