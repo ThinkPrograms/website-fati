@@ -8,7 +8,7 @@ const Navbar = () => {
             <NavLink to="/" className='logo'>Fatin Rakennus Tmi</NavLink>
             <div className='menu'>
             <NavLink to="/" className='menu-item'>Tietoa yrityksestä</NavLink>
-                <p className='menu-item'>Palvelut</p>
+                <NavLink to="/palvelut" className='menu-item'>Palvelut</NavLink>
                 <p className='menu-item'>Referenssit</p>
                 <NavLink to="/yhteystiedot" className='menu-item'>Yhteystiedot</NavLink>
             </div>

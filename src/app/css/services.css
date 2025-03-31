@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 256px;
+    max-height: 256px;
+
+    padding-inline: 16px;
+    padding-bottom: 8px;
+
+    box-shadow: 1px 1px 5px 1px black;
+    border-radius: 2px;
+}
+
+.card-title {
+    font-size: 24px;
+    padding-bottom: 8px;
+
+}
+
+.card-details {
+    padding: 4px;
+    font-size: 16px;
+}

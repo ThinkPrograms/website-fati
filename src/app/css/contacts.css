@@ -20,6 +20,8 @@
     flex-direction: column;
     border-color: #006A71;
     border-style: solid;
+    box-shadow: 2px 2px 7px black;
+
     padding: 16px;
     border-radius: 4px;
     min-width: 512px;
@@ -55,6 +57,7 @@
 
 .send-btn {
     align-self: last baseline;
+    border-radius: 5px;
 }
 
 /* Contact information section */

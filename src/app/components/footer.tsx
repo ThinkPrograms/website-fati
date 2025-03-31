@@ -3,6 +3,7 @@ import ContactInfo from './contactInfo';
 import { NavLink } from 'react-router';
 
 const Footer = () => {
+
     return (
         <div className="Footer">
             <div className="contact-info">
@@ -10,7 +11,7 @@ const Footer = () => {
                 <button className='contacts-btn'><NavLink to="/yhteystiedot" className='menu-item'>Ota yhteyttä</NavLink></button>
             </div>
             <div className='footer-elements'>
-                <p>© Copyright 2025</p>
+                <p>© Copyright {new Date().getFullYear()}</p>
             </div>
         </div>
     )

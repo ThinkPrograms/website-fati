@@ -3,10 +3,12 @@ import {
   Routes,
   Route,
 } from "react-router";
-import Index from "./pages/index"
-import Contacts from "./pages/contacts";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+
+import Index from "./pages/index"
+import Contacts from "./pages/contacts";
+import Services from "./pages/services";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
       <Routes>
         <Route index element={<Index />} />
         <Route path="yhteystiedot" element={<Contacts />} />
+        <Route path="palvelut" element={<Services />} />
       </Routes>
       <Footer/>
     </Router>
