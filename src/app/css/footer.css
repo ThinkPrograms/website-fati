@@ -1,15 +1,25 @@
 .Footer {
     margin-top: auto;
-    height: 64px;
     width: 100%;
-    background: #2C2C2C;
+}
+
+.contact-info {
+    background-color: #006A71;
+    color: #d6d6d6;
+
+    padding-block: 16px;
+    padding-left: 256px;
 }
 
 .footer-elements {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    background-color: #424242;
     color: #d6d6d6;
+
     font-size: 12px;
-    padding-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 12px;
 }

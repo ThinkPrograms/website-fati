@@ -3,7 +3,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #32ADE6;
+    background-color: #F2EFE7;
     padding-top: 24px;
     padding-bottom: 12px;
     padding-inline: 256px;
@@ -12,16 +12,16 @@
 .logo {
     position: relative;
     font-size: 24px;
-    color: rgb(235, 235, 235);
+    color: rgb(99, 99, 99);
     bottom: 6px;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    color: rgb(235, 235, 235);
+    color: rgb(99, 99, 99);
 }
 
 .menu-item ~ .menu-item {
-    margin-left: 16px;
+    margin-left: 32px;
 }

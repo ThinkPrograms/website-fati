@@ -1,6 +1,7 @@
 .container {
     padding-inline: 256px;
     padding-block: 32px;
+    min-height: 95vh;
 }
 
 .topPortion {
@@ -20,6 +21,14 @@
 
 .middlePortion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 32px;
+}
+
+.contacts-btn {
+    margin-top: 16px;
+    height: 36px;
+    width: 112px;
+
+    /* height: 44px; */
 }

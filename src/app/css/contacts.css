@@ -1,54 +1,45 @@
 .content {
-    background-color: rgb(200, 217, 231);
-    height: 100vh;
+    background-color: #9ACBD0;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-inline: 256px;
-}
-
-.contact-side-text {
-    display: flex;
-    flex-direction: column;
+    margin-top: 128px;
 }
 
 .contact-details {
     display: flex;
     justify-content: row;
-    justify-content: space-between;
-    margin-bottom: 128px;
+    justify-content: space-evenly;
+    
 }
 
-.contact-title {
-    font-size: 48px;
-    margin-top: 32px;
-    align-self: center;
-}
-
-.company-name {
-    font-size: 36px;
-    margin-top: 4px;
-}
-
-.contact-text {
-    font-size: 20px;
-    max-width: 512px;
-}
+/* Fillable contact section */
 
 .contact-field {
     display: flex;
     flex-direction: column;
-    width: 512px;
+    border-color: #006A71;
+    border-style: solid;
+    padding: 16px;
+    border-radius: 4px;
+    min-width: 512px;
+}
+
+.contact-title {
+    font-size: 48px;
+    margin-bottom: 48px;
+
+    justify-self: center;
 }
 
 .text-field {
-    background-color: aliceblue;
+    background-color: #F2EFE7;
     border: none;
     border-radius: 4px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(112, 114, 114);
-    color: rgb(68, 68, 68);
+    color: rgb(100, 100, 100);
     font-size: 16px;
     margin-bottom: 8px;
     padding: 4px;
@@ -62,18 +53,34 @@
 
 }
 
-.contact-send-btn {
-    width: 92px;
-    height: 48px;
-    font-size: 16px;
+.send-btn {
+    align-self: last baseline;
+}
+
+/* Contact information section */
+
+.contact-side-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+}
+
+.company-name {
+    font-size: 36px;
+    margin-top: 4px;
+}
+
+.contact-text {
+    font-size: 20px;
+    max-width: 512px;
+}
+
+.space-under {
+    padding-bottom: 6px;
 }
 
 .icon-height-fix {
     position: relative;
     top: 4px;
     right: 4px;
-}
-
-.space-under {
-    padding-bottom: 6px;
 }

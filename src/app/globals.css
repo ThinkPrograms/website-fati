@@ -1,12 +1,12 @@
 :root {
-  --background: #ffffff;
+  --background: #9ACBD0;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #eeeeee;
-    --foreground: #6e6e6e;
+    --background: #9ACBD0;
+    --foreground: #636366;
   }
 }
 
@@ -28,6 +28,14 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+button {
+  width: 88px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #48A6A7;
+  border-color: #006A71;
 }
 
 a {
