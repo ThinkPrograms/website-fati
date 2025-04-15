@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const Navbar = () => {
 
     return (
-        <div className="navbar">
+        <div className="navbar prevent-select">
             <NavLink to="/" className='logo'>Fatin Rakennus Tmi</NavLink>
             <div className='menu'>
             <NavLink to="/" className='menu-item'>Tietoa yrityksestä</NavLink>
